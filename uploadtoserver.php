@@ -1,5 +1,5 @@
 <?php
-    $targetDir = "uploads/";
+    $targetDir = "";
     $fileName = basename($_FILES["file"]["name"]);
     $fileSize = $_FILES["file"]["size"];
     $targetFilePath = $targetDir.$fileName;
